@@ -1,9 +1,10 @@
 .slideshow-container {
   max-width: 100%;
   position: static;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 0%;
+  margin-bottom: 2.5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
 }
 
 .prev,
@@ -24,6 +25,7 @@
 
 .next {
   right: 0;
+  margin-right: 2.5px;
   border-radius: 3px 0 0 3px;
 }
 
