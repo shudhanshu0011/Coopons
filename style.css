@@ -1,83 +1,271 @@
+@font-face {
+  src: url(font/HM2.woff);
+  font-family: HM;
+  background-color: white;
+}
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: black;
 }
 .navbar {
+  margin-top: 34px;
+  height: 151px;
   display: flex;
-  width: 100%;
-  height: 7%;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-  padding-left: 0px;
-  position: fixed;
-  z-index: 1;
-  background-color: black;
 }
-.logo img {
-  margin-top: 8px;
+.searchbar {
+  flex: 25%;
 }
-nav {
-  flex: 1;
-  text-align: right;
-  height: 52px;
-  margin-top: 0px;
-  padding: 0px;
+.searcharea {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  border-bottom: 1px solid black;
+  display: flex;
 }
-nav ul {
-  display: inline-box;
-  list-style-type: none;
+.searchicon {
+  width: 30px;
+  height: 30px;
 }
-nav ul li {
-  display: inline-block;
-  margin-top: 15px;
-  margin-right: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
+.searchfield {
+  font-family: HM;
+  font-size: 15px;
+  padding-left: 5%;
+  border: none;
 }
 .logo {
-  margin-top: 0px;
-  margin-left: 40px;
+  flex: 50%;
+}
+.category1 {
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 1%;
+  width: 50%;
+  display: flex;
+  font-family: HM;
+  font-size: 16px;
+  background-position: center;
+}
+.Ladies1 {
+  flex: 20%;
+}
+.Ladies1:hover {
+  border-bottom: 1px solid black;
+}
+.Men1 {
+  flex: 20%;
+}
+.Men1:hover {
+  border-bottom: 1px solid black;
+}
+.Baby1 {
+  flex: 20%;
+}
+.Baby1:hover {
+  border-bottom: 1px solid black;
+}
+.Kids1 {
+  flex: 20%;
+}
+.Kids1:hover {
+  border-bottom: 1px solid black;
+}
+.Sale1 {
+  flex: 20%;
+}
+.Sale1:hover {
+  border-bottom: 1px solid black;
+}
+.logo img {
+  width: 150px;
+  margin-left: 46%;
+  margin-top: 1%;
+}
+.menu {
+  flex: 25%;
+  display: flex;
+}
+.account {
+  flex: 33.3%;
+  display: flex;
+}
+.account a {
+  padding-top: 1%;
+  margin-left: 5%;
+  font-size: 13px;
+  font-family: HM;
+}
+.wishlist {
+  flex: 33.3%;
+  display: flex;
+}
+.wishlist a {
+  padding-top: 1%;
+  margin-left: 5%;
+  font-size: 13px;
+  font-family: HM;
+}
+.cart {
+  flex: 33.3%;
+  display: flex;
+}
+.cart a {
+  padding-top: 1%;
+  margin-left: 5%;
+  font-size: 13px;
+  font-family: HM;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 p {
-  color: white;
+  color: black;
 }
-.container {
-  max-width: 2000px;
-  margin: auto;
-  display: block;
+.bodypart {
+  display: flex;
+  height: 10000px;
 }
-.search-field {
-  height: 28px;
-  width: 500px;
+.start1 {
+  flex: 20%;
+}
+.middle1 {
+  flex: 60%;
+}
+.end1 {
+  flex: 20%;
+}
+.announcement {
+  height: 600px;
+  margin-top: 15px;
+  background-color: crimson;
+}
+.firstline1 {
   text-align: center;
-  border: none;
-  outline: none;
-  border-radius: 25px;
-  background-color: rgb(49, 49, 49);
+  font-size: 33px;
+  font-family: HM;
+  padding-top: 150px;
 }
-.form-box1 {
-  padding-left: 300px;
+.secondline1 {
+  text-align: center;
+  font-size: 88px;
+  font-family: HM;
+  font-weight: bold;
 }
-.search-btn {
-  height: 28px;
-  width: 100px;
-  border-radius: 25px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: aliceblue;
-  font-size: 18px;
+.category2 {
+  display: flex;
 }
-.search-btn:hover {
+.start2 {
+  flex: 30%;
+}
+.middle2 {
+  padding-top: 15%;
+  flex: 40%;
+  width: 100%;
+  height: 100%h;
+  display: flex;
+  font-family: HM;
+  font-size: 15px;
+  text-align: center;
+}
+.women2 {
+  flex: 25%;
+  background-color: white;
+}
+.women2:hover {
   cursor: pointer;
+  background-color: rgb(224, 224, 224);
 }
-.ignore {
-  height: 60px;
+.men2 {
+  flex: 25%;
+  background-color: white;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+.men2:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+.kids2 {
+  flex: 25%;
+  background-color: white;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.kids2:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+.baby2 {
+  flex: 25%;
+  background-color: white;
+  margin-left: 1%;
+}
+.baby2:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+.end2 {
+  flex: 30%;
+}
+
+.row {
+  height: 250px;
+  margin: 0px;
+  display: flex;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  font-family: HM;
+  font-size: 13px;
+  line-height: 200%;
+  background-color: rgb(204, 185, 161);
+}
+.column1 {
+  flex: 20%;
+  padding-left: 5%;
+  text-align: left;
+  margin-top: 2%;
+}
+.column1 a:hover {
+  text-decoration: underline;
+}
+.column2 {
+  flex: 20%;
+  padding-left: 4%;
+  text-align: left;
+  margin-top: 2%;
+}
+.column2 a:hover {
+  text-decoration: underline;
+}
+.column3 {
+  flex: 20%;
+  padding-left: 3%;
+  text-align: left;
+  margin-top: 2%;
+}
+.column3 a:hover {
+  text-decoration: underline;
+}
+.column4 {
+  flex: 20%;
+  padding-left: 2%;
+  text-align: left;
+  margin-top: 2%;
+}
+.column4 a:hover {
+  text-decoration: underline;
+}
+.column5 {
+  flex: 20%;
+  padding-left: 1;
+  text-align: left;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+.endimg {
+  padding-left: 37.5%;
+  padding-right: 37.5%;
+  background-color: rgb(204, 185, 161);
 }

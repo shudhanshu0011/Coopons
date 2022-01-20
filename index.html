@@ -4,48 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trauma</title>
-    <link rel="shortcut icon" type="image" href="./trauma.png"/>
+    <title>Trauma | Online Fashion</title>
+    <link rel="shortcut icon" type="image" href="./title.jpg"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slideshow.css">
     <script src="./index.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="./trauma.jpg" width="85px">
+    <div class="navbar">
+        <div class="searchbar">
+            <div class="searcharea">
+                <div class="searchicon"><img src="./images/searchicon.svg" alt=""></div>
+                <input type="text" class="searchfield" placeholder="Search Products">
             </div>
-            <div class="searchbar">
-                <form>
-                    <div class="form-box1">
-                        <input type="text" class="search-field" placeholder="Search for products...">
-                        <button class="search-btn" type="button">Search</button>
-                    </div>
-                </form>
+        </div>
+        <div class="logo">
+            <img src="./title.jpg" alt="">
+            <div class="category1">
+                <div class="Ladies1">
+                    <a href="">Ladies</a>
+                </div>
+                <div class="Men1">
+                    <a href="">Men</a>
+                </div>
+                <div class="Baby1">
+                    <a href="">Baby</a>
+                </div>
+                <div class="Kids1">
+                    <a href="">Kids</a>
+                </div>
+                <div class="Sale1">
+                    <a href="">Sale</a>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Browse</a></li>
-                    <li><a href="./login.html">Account</a></li>
-                    <li><a href="">Cart</a></li>
-                </ul>
-            </nav>
+        </div>
+        <div class="menu">
+            <div class="account">
+                <div class="signinicon"><img src="./images/signin.svg" alt=""></div>
+                <a href="">Sign In</a>
+            </div>
+            <div class="wishlist">
+                <div class="wishlisticon"><img src="./images/favourites.svg" alt=""></div>
+                <a href="">Favourites</a>
+            </div>
+            <div class="cart">
+                <div class="carticon"><img src="./images/cart.svg" alt=""></div>
+                <a href="">Shopping Bag</a>
+            </div>
         </div>
     </div>
-    <div class="ignore"></div>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="./images/1.jpg" style="width:100%">
+    <div class="bodypart">
+        <div class="start1"></div>
+
+        <div class="middle1">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./images/1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./images/2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./images/3.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="announcement">
+                <p class="firstline1">FINAL SALE</p>
+                <p class="secondline1">Now up to 70% off</p>
+                <div class="category2">
+                    <div class="start2"></div>
+                    <div class="middle2">
+                        <div class="women2"><a href="">WOMEN</a></div>
+                        <div class="men2"><a href="">MEN</a></div>
+                        <div class="kids2"><a href="">KIDS</a></div>
+                        <div class="baby2"><a href="">BABY</a></div>
+                    </div>
+                    <div class="end2"></div>
+                </div>
+            </div>
+            
+
+
+
+
+
         </div>
-        <div class="mySlides fade">
-            <img src="./images/2.jpg" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="./images/3.jpg" style="width:100%">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="end1"></div>
     </div>
     <script>
         var slideIndex = 1;
@@ -72,6 +119,47 @@
             dots[slideIndex-1].className += " active";
         }
     </script>
-    <img src="./pexels-lisa-1083822.jpg" alt="">
+
+
+
+    <div class="row">
+        <div class="column1">
+            <p>ABOUT<br><br></p>
+            <a href="">Contact Us<br></a>
+            <a href="">About Us<br></a>
+            <a href="">Press<br></a>
+        </div>
+        <div class="column2">
+            <p>HELP<br><br></p>
+            <a href="">Payments<br></a>
+            <a href="">Shipping<br></a>
+            <a href="">Cancellation & Returns<br></a>
+            <a href="">FAQ<br></a>
+            <a href="">Report<br></a>
+        </div>
+        <div class="column3">
+            <p>POLICY<br><br></p>
+            <a href="">Return Policy<br></a>
+            <a href="">Terms of Use<br></a>
+            <a href="">Security<br></a>
+            <a href="">Privacy<br></a>
+        </div>
+        <div class="column4">
+            <p>SOCIAL<br><br></p>
+            <a href="">Facebook<br></a>
+            <a href="">Twitter<br></a>
+            <a href="">Instagram<br></a>
+        </div>
+        <div class="column5">
+            <p>Mail Us<br><br></p>
+            <p>
+                Trauma Private Limited, E-79,
+                Block-E,  Alpha-1, Greater Noida,
+                201308, Gautam Buddha Nagar,<br>
+                Uttar Pradesh, India
+            </p>
+        </div>
+      </div>
+      <div class="endimg"><img src="./images/payment.svg" alt=""></div>
 </body>
 </html>
