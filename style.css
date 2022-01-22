@@ -87,6 +87,9 @@
 }
 .account {
   flex: 33.3%;
+  height: 30px;
+  background: transparent;
+  border: none;
   display: flex;
 }
 .account a {
@@ -124,7 +127,7 @@ p {
 }
 .bodypart {
   display: flex;
-  height: 10000px;
+  height: 3970px;
 }
 .start1 {
   flex: 20%;
@@ -137,7 +140,7 @@ p {
 }
 .announcement {
   height: 600px;
-  margin-top: 15px;
+  margin-top: 20px;
   background-color: crimson;
 }
 .firstline1 {
@@ -208,11 +211,96 @@ p {
 .end2 {
   flex: 30%;
 }
-
+.shopnow {
+  flex: 25%;
+  background-color: white;
+}
+.shopnow:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+.announcement1 {
+  margin-top: 20px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/5.jpg);
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.announcement2 {
+  margin-top: 20px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/6.jpg);
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.announcement3 {
+  margin-top: 20px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/7.jpg);
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.announcement4 {
+  margin-top: 20px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/8.jpg);
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.category3 {
+  display: flex;
+}
+.start3 {
+  flex: 44%;
+  position: relative;
+}
+.end3 {
+  flex: 44%;
+}
+.middle3 {
+  flex: 12%;
+  text-align: center;
+  font-family: HM;
+  margin-top: 25px;
+}
+.firstline2 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  font-family: HM;
+  font-weight: bold;
+  padding-top: 500px;
+}
+.secondline2 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: HM;
+  padding-top: 8px;
+}
 .row {
   height: 250px;
   margin: 0px;
-  display: flex;
   text-align: left;
   display: flex;
   justify-content: center;
