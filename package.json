@@ -1,0 +1,19 @@
+{
+  "name": "fashionfirst",
+  "version": "1.0.0",
+  "description": "Online fashion website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shudhanshu0011/fashionfirst.git"
+  },
+  "author": "Shudhanshu Ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shudhanshu0011/fashionfirst/issues"
+  },
+  "homepage": "https://github.com/shudhanshu0011/fashionfirst#readme"
+}

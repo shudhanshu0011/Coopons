@@ -1,5 +1,5 @@
 @font-face {
-  src: url(font/HM2.woff);
+  src: url(font/09c8fb44d2c62d99647e4ce58736293e.woff2);
   font-family: HM;
   background-color: white;
 }
@@ -28,7 +28,7 @@
   height: 30px;
 }
 .searchfield {
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-size: 15px;
   padding-left: 5%;
   border: none;
@@ -36,13 +36,21 @@
 .logo {
   flex: 50%;
 }
+.logoimage {
+  height: 65%;
+  font-family: HM, sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 55px;
+  padding-left: 33.3%;
+  display: flex;
+}
 .category1 {
   text-align: center;
-  margin-left: 30%;
-  margin-top: 1%;
+  margin-left: 27.5%;
   width: 50%;
   display: flex;
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-size: 16px;
   background-position: center;
 }
@@ -76,6 +84,22 @@
 .Sale1:hover {
   border-bottom: 1px solid black;
 }
+.dropdown-content {
+  display: flex;
+}
+.start4 {
+  flex: 20%;
+}
+.middle4 {
+  display: flex;
+  flex: 60%;
+}
+.row1 {
+  flex: 25%;
+}
+.end4 {
+  flex: 20%;
+}
 .logo img {
   width: 150px;
   margin-left: 46%;
@@ -83,8 +107,51 @@
 }
 .menu {
   flex: 25%;
+}
+.dropbtn {
+  background-color: white;
+  padding: 16px;
+  border: none;
   display: flex;
 }
+.dropbtn p {
+  text-align: center;
+  font-family: HM;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-top: 2px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-family: HM;
+  font-size: 13px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
 .account {
   flex: 33.3%;
   height: 30px;
@@ -96,7 +163,7 @@
   padding-top: 1%;
   margin-left: 5%;
   font-size: 13px;
-  font-family: HM;
+  font-family: HM, sans-serif;
 }
 .wishlist {
   flex: 33.3%;
@@ -106,7 +173,7 @@
   padding-top: 1%;
   margin-left: 5%;
   font-size: 13px;
-  font-family: HM;
+  font-family: HM, sans-serif;
 }
 .cart {
   flex: 33.3%;
@@ -116,7 +183,7 @@
   padding-top: 1%;
   margin-left: 5%;
   font-size: 13px;
-  font-family: HM;
+  font-family: HM, sans-serif;
 }
 a {
   text-decoration: none;
@@ -127,7 +194,7 @@ p {
 }
 .bodypart {
   display: flex;
-  height: 3970px;
+  height: 4490px;
 }
 .start1 {
   flex: 20%;
@@ -146,13 +213,13 @@ p {
 .firstline1 {
   text-align: center;
   font-size: 33px;
-  font-family: HM;
+  font-family: HM, sans-serif;
   padding-top: 150px;
 }
 .secondline1 {
   text-align: center;
   font-size: 88px;
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-weight: bold;
 }
 .category2 {
@@ -167,7 +234,7 @@ p {
   width: 100%;
   height: 100%h;
   display: flex;
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-size: 15px;
   text-align: center;
 }
@@ -219,17 +286,68 @@ p {
   cursor: pointer;
   background-color: rgb(224, 224, 224);
 }
+.trending {
+  margin-top: 40px;
+  font-family: HM, sans-serif;
+}
+.trendingtext {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.firstline3 {
+  display: flex;
+  padding-top: 35px;
+}
+.secondline3 {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.card {
+  flex: 12.5%;
+  padding-left: 17px;
+}
+.card img {
+  border-radius: 50%;
+}
+.card img:hover {
+  cursor: pointer;
+}
+.firstline4 {
+  font-size: 0.8125rem;
+  color: #707070;
+  font-weight: 600;
+  text-align: center;
+}
+.secondline4 {
+  font-size: 0.8125rem;
+  font-weight: bold;
+  text-align: center;
+}
 .announcement1 {
   margin-top: 20px;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.35) 100%
-    ),
-    url(./images/5.jpg);
+    )
+    /* ,url(./images/5.jpg) */;
   height: 720px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.announcement1:hover {
+  cursor: pointer;
+}
+.announcement2:hover {
+  cursor: pointer;
+}
+.announcement3:hover {
+  cursor: pointer;
+}
+.announcement4:hover {
+  cursor: pointer;
 }
 .announcement2 {
   margin-top: 20px;
@@ -237,8 +355,8 @@ p {
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.35) 100%
-    ),
-    url(./images/6.jpg);
+    )
+    /* ,url(./images/6.jpg) */;
   height: 720px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,8 +367,8 @@ p {
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.35) 100%
-    ),
-    url(./images/7.jpg);
+    )
+    /* ,url(./images/7.jpg) */;
   height: 720px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,8 +379,8 @@ p {
       to bottom,
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.35) 100%
-    ),
-    url(./images/8.jpg);
+    )
+    /* ,url(./images/8.jpg) */;
   height: 720px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,14 +398,14 @@ p {
 .middle3 {
   flex: 12%;
   text-align: center;
-  font-family: HM;
+  font-family: HM, sans-serif;
   margin-top: 25px;
 }
 .firstline2 {
   color: white;
   text-align: center;
   font-size: 42px;
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-weight: bold;
   padding-top: 500px;
 }
@@ -295,7 +413,7 @@ p {
   color: white;
   text-align: center;
   font-size: 14px;
-  font-family: HM;
+  font-family: HM, sans-serif;
   padding-top: 8px;
 }
 .row {
@@ -304,7 +422,7 @@ p {
   text-align: left;
   display: flex;
   justify-content: center;
-  font-family: HM;
+  font-family: HM, sans-serif;
   font-size: 13px;
   line-height: 200%;
   background-color: rgb(204, 185, 161);

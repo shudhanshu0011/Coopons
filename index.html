@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trauma | Online Fashion</title>
-    <link rel="shortcut icon" type="image" href="./title.jpg"/>
+    <title>FashionFirst | Online Fashion</title>
+    <link rel="shortcut icon" type="image" href="./images/13.jpg"/>
+    <link rel="preload" as="font" href="/font/09c8fb44d2c62d99647e4ce58736293e.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slideshow.css">
     <script src="./index.js"></script>
@@ -19,10 +20,30 @@
             </div>
         </div>
         <div class="logo">
-            <img src="./title.jpg" alt="">
+            <div class="logoimage">
+                fashion first
+            </div>
             <div class="category1">
                 <div class="Ladies1">
                     <a href="">Ladies</a>
+                    <div class="dropdown-content">
+                        <div class="start4"></div>
+                        <div class="middle4">
+                            <div class="row1">
+                                
+                            </div>
+                            <div class="row1">
+
+                            </div>
+                            <div class="row1">
+
+                            </div>
+                            <div class="row1">
+
+                            </div>
+                        </div>
+                        <div class="end4"></div>
+                    </div>
                 </div>
                 <div class="Men1">
                     <a href="">Men</a>
@@ -39,17 +60,28 @@
             </div>
         </div>
         <div class="menu">
-            <button class="account">
-                <div class="signinicon"><img src="./images/signin.svg" alt=""></div>
-                <a href="./login.html">Sign In</a>
-            </button>
-            <div class="wishlist">
-                <div class="wishlisticon"><img src="./images/favourites.svg" alt=""></div>
-                <a href="">Favourites</a>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="./images/signin.svg"><p>Sign In</p></button>
+                <div class="dropdown-content">
+                  <a href="./buyerlogin.html">Buyer Login</a>
+                  <a href="./sellerlogin.html">Seller Login</a>
+                </div>
             </div>
-            <div class="cart">
-                <div class="carticon"><img src="./images/cart.svg" alt=""></div>
-                <a href="">Shopping Bag</a>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="./images/favourites.svg"><p>Favourites</p></button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="./images/cart.svg"><p>Shopping Bag</p></button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a> -->
+                </div>
             </div>
         </div>
     </div>
@@ -70,6 +102,11 @@
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
             <div class="announcement">
                 <p class="firstline1">FINAL SALE</p>
                 <p class="secondline1">Now up to 70% off</p>
@@ -82,6 +119,93 @@
                         <div class="baby2"><a href="">BABY</a></div>
                     </div>
                     <div class="end2"></div>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="trendingtext">Trending right now</div>
+                <div class="firstline3">
+                    <div class="card">
+                        <img src="./trending/1.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Tops & T-shirts</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/2.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Trousers</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/3.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Clothes</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/4.png" alt="">
+                        <div class="firstline4">Men</div>
+                        <div class="secondline4">Hoodies & Sweatshirts</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/5.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Cardigans & Sweaters</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/6.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Dresses</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/7.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Sweatshirts & Hoodies</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/8.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Shirts</div>
+                    </div>
+                </div>
+                <div class="secondline3">
+                    <div class="card">
+                        <img src="./trending/9.png" alt="">
+                        <div class="firstline4">Men</div>
+                        <div class="secondline4">T-shirts & Tanks</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/10.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Nightwear</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/11.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Shoes</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/12.png" alt="">
+                        <div class="firstline4">Men</div>
+                        <div class="secondline4">Trousers</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/13.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Jeans</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/14.png" alt="">
+                        <div class="firstline4">Men</div>
+                        <div class="secondline4">Clothes</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/15.png" alt="">
+                        <div class="firstline4">Ladies</div>
+                        <div class="secondline4">Jackets & Coats</div>
+                    </div>
+                    <div class="card">
+                        <img src="./trending/16.png" alt="">
+                        <div class="firstline4">Men</div>
+                        <div class="secondline4">Cardigans & Jumpers</div>
+                    </div>
                 </div>
             </div>
             <div class="announcement1">
@@ -192,7 +316,7 @@
         <div class="column5">
             <p>Mail Us<br><br></p>
             <p>
-                Trauma Private Limited, E-79,
+                FashionFirst Private Limited, E-79,
                 Block-E,  Alpha-1, Greater Noida,
                 201308, Gautam Buddha Nagar,<br>
                 Uttar Pradesh, India
