@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/13.jpg?raw=true"/>
+    <title>Seller Homepage</title>
+    <link rel="stylesheet" href="sellerpage.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar1">
+        <div class="logo1">
+            fashion first
+        </div>
+        <div class="menu1">
+            <div class="dropdown">
+                <button class="dropbtn"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/dashboard.png?raw=true" class="random1"><p>Dashboard</p></button>
+                <div class="dropdown-content">
+                  <!-- <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/user.png?raw=true" class="random1"><p>My Account</p></button>
+                <div class="dropdown-content">
+                  <a href="#">My Profile</a>
+                  <a href="#">My Products</a>
+                  <a href="#">Logout</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/truck.png?raw=true" class="random1"><p>Management</p></button>
+                <div class="dropdown-content">
+                  <a href="#">Product Management</a>
+                  <a href="#">Sales Management</a>
+                  <a href="#">Order Management</a>
+                  <a href="#">Supplier Management</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/stats.png?raw=true" class="random1"><p>Stats</p></button>
+                <div class="dropdown-content">
+                  <a href="#">Customer Statistics</a>
+                  <a href="#">Daily Order</a>
+                  <a href="#">Order Details</a>
+                  <a href="#">Leaderboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="random3">
+        <div class="random2">
+            Add Products
+        </div>
+        <div class="random4">
+            <div class="dropdown">
+                <button class="dropbtn"><p style="font-size: 15px;">Open Documentation</p></button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><p style="font-size: 15px;">Setupe Details</p></button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/more.png?raw=true" class="random1"><p></p></button>
+                <div class="dropdown-content">
+                  <a href="#">Drafts</a>
+                  <a href="#">History</a>
+                  <a href="#">Delete Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="random5">
+        When adding products here, do not ignore to fill in all the required fields completely and follow the product adding rules.
+    </div>
+    <div class="random7">
+        <div class="random6"></div>
+        <div class="addproduct">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Add_Product')" id="defaultOpen"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/plus.png?raw=true" style="width: 15px; padding-right: 3px;">  Add Product</button>
+            <button class="tablinks" onclick="openCity(event, 'Overview')">Overview</button>
+        </div>
+        <div id="Add_Product" class="tabcontent">
+            <div class="random9">
+                <div class="searchbar1">
+                    <div class="searcharea1">
+                        <div class="searchicon"><img src="https://raw.githubusercontent.com/shudhanshu0011/fashionfirst/f85d95520606ecf329a0c610c5cdee5cdcb7f047/images/searchicon.svg" style="opacity: 60%;"></div>
+                        <input type="text" class="searchfield1" placeholder="Search Product Id, Brand, Categories or something...">
+                    </div>
+                </div>
+                <div class="random10">
+                    <button class="filters"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/filter.png?raw=true" style="width: 18px; opacity: 60%; margin-right: 9px;">Filters</button>
+                </div>
+                <div class="random11">
+                    <button class="attachment"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/paperclip.png?raw=true" style="width: 15px; opacity: 60%; margin-right: 7px;">Attachment</button>
+                </div>
+            </div>
+            <div class="form-0">
+                <div class="form-1">
+                    <div style="font-size: 20px; padding-top: 30px;">Product Name</div>
+                    <input type="text" id="fname" name="firstname" class="searchfield2" placeholder="" style="width: 90%; height: 35px; margin-top: 10px;"><br>
+                    <span style="font-size: 13px; color: gray;">Do not exceed 20 characters when entering the product name.</span>
+                    <div style="display: flex;">
+                        <div class="category11">
+                            <div style="font-size: 20px; padding-top: 20px;">Category</div>
+                            <select id="category12" style="width: 90%; height: 35px; margin-top: 10px; font-size: 15px; padding-left: 10px; font-family: HM;">
+                                <option value="Casual Shoes" >Casual Shoes</option>
+                                <option value="T-Shirts">T-Shirts</option>
+                                <option value="Formal Shirts">Formal Shirts</option>
+                                <option value="Sweatshirts">Sweatshirts</option>
+                                <option value="Jeans">Jeans</option>
+                                <option value="Jackets">Jackets</option>
+                                <option value="Shorts & Skirts">Shorts & Skirts</option>
+                                <option value="Dresses">Dresses</option>
+                                <option value="Briefs">Briefs</option>
+                            </select>
+                        </div>
+                        <div class="category11">
+                            <div style="font-size: 20px; padding-top: 20px;">Gender</div>
+                            <select id="gender12" style="width: 80%; height: 35px; margin-top: 10px; font-size: 15px; padding-left: 10px; font-family: HM;">
+                                <option value="Male" >Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="font-size: 20px; padding-top: 20px;">Brand</div>
+                    <select id="Brand12" style="width: 90%; height: 35px; margin-top: 10px; font-size: 15px; padding-left: 10px; font-family: HM;">
+                        <option value="Nike" >Nike</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Zara">Zara</option>
+                    </select>
+                    <div class="col-25" style="padding-top: 20px;">
+                        <label for="subject">Description</label>
+                    </div>
+                    <div class="col-75" style="padding-top: 10px;">
+                        <textarea id="subject" name="subject" placeholder="" style="height:200px; width: 90%; position:relative;"></textarea>
+                    </div>
+                    <span style="font-size: 13px; color: gray;">Do not exceed 100 characters when entering the description.</span>
+                </div>
+                <div class="form-2">
+                    <div style="font-size: 20px; padding-top: 30px;">Product Image</div>
+                    <div style="display: flex;">
+                        <div class="productimage" style=" height: 200px; padding-right: 10px;">
+                            <div class="drag-area">
+                                <div class="icon1"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/image.png?raw=true" style="width: 30px; height: 30px; opacity: 50%;" alt=""></div>
+                                <div style="padding-top: 10px;">Drop your images here, or</div>
+                                <div>select <button>click to browse</button></div>
+                                <input type="file" hidden>
+                            </div>                              
+                        </div>
+                        <div class="productimage" style=" height: 200px; padding-right: 10px;">
+                            <div class="drag-area">
+                                <div class="icon1"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/image.png?raw=true" style="width: 30px; height: 30px; opacity: 50%;" alt=""></div>
+                                <div style="padding-top: 10px;">Drop your images here, or</div>
+                                <div>select <button>click to browse</button></div>
+                                <input type="file" hidden>
+                            </div>                              
+                        </div>
+                        <div>
+                            <div class="productimage" style=" height: 100px;">
+                                <div class="drag-area1">
+                                    <div class="icon1"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/image.png?raw=true" style="width: 20px; height: 20px; opacity: 50%;" alt=""></div>
+                                    <div style="padding-top: 10px;">Drop your images here, or</div>
+                                    <div>select <button>click to browse</button></div>
+                                    <input type="file" hidden>
+                                </div>                              
+                            </div>
+                            <div class="productimage" style=" height: 100px;  margin-top: 30px;">
+                                <div class="drag-area1">
+                                    <div class="icon1"><img src="https://github.com/shudhanshu0011/fashionfirst/blob/master/images/image.png?raw=true" style="width: 20px; height: 20px; opacity: 50%;" alt=""></div>
+                                    <div style="padding-top: 10px;">Drop your images here, or</div>
+                                    <div>select <button>click to browse</button></div>
+                                    <input type="file" hidden>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        const dropArea = document.querySelector(".drag-area"),
+                        dragText = dropArea.querySelector("header"),
+                        button = dropArea.querySelector("button"),
+                        input = dropArea.querySelector("input");
+                        let file; //this is a global variable and we'll use it inside multiple functions
+                        button.onclick = ()=>{
+                            input.click(); //if user click on the button then the input also clicked
+                        }
+                        input.addEventListener("change", function(){
+                        //getting user select file and [0] this means if user select multiple files then we'll select only the first one
+                             file = this.files[0];
+                            dropArea.classList.add("active");
+                            showFile(); //calling function
+                        });
+                        //If user Drag File Over DropArea
+                        dropArea.addEventListener("dragover", (event)=>{
+                            event.preventDefault(); //preventing from default behaviour
+                            dropArea.classList.add("active");
+                            dragText.textContent = "Release to Upload File";
+                        });
+                        //If user leave dragged File from DropArea
+                        dropArea.addEventListener("dragleave", ()=>{
+                            dropArea.classList.remove("active");
+                            dragText.textContent = "Drag & Drop to Upload File";
+                        });
+                        //If user drop File on DropArea
+                        dropArea.addEventListener("drop", (event)=>{
+                            event.preventDefault(); //preventing from default behaviour
+                            //getting user select file and [0] this means if user select multiple files then we'll select only the first one
+                            file = event.dataTransfer.files[0];
+                            showFile(); //calling function
+                        });
+                        function showFile(){
+                            let fileType = file.type; //getting selected file type
+                            let validExtensions = ["image/jpeg", "image/jpg", "image/png"]; //adding some valid image extensions in array
+                            if(validExtensions.includes(fileType)){ //if user selected file is an image file
+                                let fileReader = new FileReader(); //creating new FileReader object
+                                fileReader.onload = ()=>{
+                                    let fileURL = fileReader.result; //passing user file source in fileURL variable
+                                    // UNCOMMENT THIS BELOW LINE. I GOT AN ERROR WHILE UPLOADING THIS POST SO I COMMENTED IT
+                                    let imgTag = `<img src="${fileURL}" alt="image">`; //creating an img tag and passing user selected file source inside src attribute
+                                    dropArea.innerHTML = imgTag; //adding that created img tag inside dropArea container
+                                }
+                                fileReader.readAsDataURL(file);
+                            }else{
+                                alert("This is not an Image File!");
+                                dropArea.classList.remove("active");
+                                dragText.textContent = "Drag & Drop to Upload File";
+                            }
+                        }
+                    </script>
+                    <div style="padding-top: 40px; font-size: 13px; color: gray;">You need to add atleast 4 images. Pay attention to the quality of the pictures you add, comply with the background standards. Picture must be in certain dimensions. Notice that the product shows all details.</div>
+                    <div style="display: flex;">
+                        <div class="category11">
+                            <div style="font-size: 20px; padding-top: 20px;">Add Size</div>
+                            <select id="size13" style="width: 90%; height: 35px; margin-top: 10px; font-size: 15px; padding-left: 10px; font-family: HM;">
+                                <option value="EU-38.5" >EU-38.5</option>
+                                <option value="EU-39">EU-39</option>
+                                <option value="EU-40">EU-40</option>
+                                <option value="EU-41.5">EU-41.5</option>
+                                <option value="EU-42">EU-42</option>
+                                <option value="EU-43">EU-43</option>
+                            </select>
+                        </div>
+                        <div class="category11">
+                            <div style="font-size: 20px; padding-top: 20px;">Product Date</div>
+                            <input type="text" id="date" name="firstname" class="searchfield2" placeholder="" style="width: 90%; height: 35px; margin-top: 10px;"><br>
+                        </div>
+                    </div>
+                    <div style="display: flex; margin-top: 65px;">
+                        <button class="random256" style="border: none; background-color: black; color: white; font-family: HM; font-size: 22px;height: 50px; width: 250px; margin-right: 15.5px;">Add Product</button>
+                        <button class="random256" style="border: 2px solid black; background: none; color: black; font-family: HM; font-size: 22px;height: 50px; width: 225px; margin-right: 15.5px;">Save Product</button>
+                        <button class="random256" style="border: 2px solid black; background: none; opacity: 50%; font-family: HM; font-size: 22px;height: 50px; width: 225px;">Schedule</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Overview" class="tabcontent" style="height: 500px;">
+            
+
+
+
+        </div>
+        <script>
+                function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+                }
+                document.getElementById("defaultOpen").click();
+        </script>
+        </div>
+        <div class="random8"></div>
+    </div>
+    <div style="height: 20px;"></div>
+    <div class="row">
+        <div class="column1">
+            <p>ABOUT<br><br></p>
+            <a href="">Contact Us<br></a>
+            <a href="">About Us<br></a>
+            <a href="">Press<br></a>
+        </div>
+        <div class="column2">
+            <p>HELP<br><br></p>
+            <a href="">Payments<br></a>
+            <a href="">Shipping<br></a>
+            <a href="">Cancellation & Returns<br></a>
+            <a href="">FAQ<br></a>
+            <a href="">Report<br></a>
+        </div>
+        <div class="column3">
+            <p>POLICY<br><br></p>
+            <a href="">Return Policy<br></a>
+            <a href="">Terms of Use<br></a>
+            <a href="">Security<br></a>
+            <a href="">Privacy<br></a>
+        </div>
+        <div class="column4">
+            <p>SOCIAL<br><br></p>
+            <a href="">Facebook<br></a>
+            <a href="">Twitter<br></a>
+            <a href="">Instagram<br></a>
+        </div>
+        <div class="column5">
+            <p>Mail Us<br><br></p>
+            <p>
+                FashionFirst Private Limited, E-79,
+                Block-E,  Alpha-1, Greater Noida,
+                201308, Gautam Buddha Nagar,<br>
+                Uttar Pradesh, India
+            </p>
+        </div>
+      </div>
+      <div class="endimg"><img src="https://raw.githubusercontent.com/shudhanshu0011/fashionfirst/f85d95520606ecf329a0c610c5cdee5cdcb7f047/images/payment.svg" alt=""></div>
+</body>
+</html>
